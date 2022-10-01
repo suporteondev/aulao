@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Cabecalho */
+.cabecalho{
+    width: calc(100% - 300px);
+    margin-top: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .logo img{
+
+}
+
+.cabecalho .logo p{
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* Menu */
+.cabecalho .menu{
+
+}
+
+.cabecalho .menu a{
+    margin-left: 30px;
+}
+
+/* Botão */
+.cabecalho .botao{
+    width: 125px;
+    height: 50px;
+    background: #E8F1FF;
+    border-radius: 12px;
+    border: none;
+    color: #2378FF;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+
+/* Informações */
+.informacoes{
+    display: flex;
+    align-items: center;
+    width: calc(100% - 300px);
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Textos */
+.informacoes .textos{
+    
+}
+
+/* Titulo */
+.informacoes .textos .titulo{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+/* Descrição */
+.informacoes .textos .descricao{
+    font-weight: 400;
+    font-size: 20px;
+    color: #606176;
+}
+
+/* Saber mais */
+.informacoes .textos .saber-mais{
+    width: 200px;
+    height: 55px;
+    background: #F77E53;
+    border-radius: 16px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color: #FEF4F1;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Redirecionar */
+.informacoes .textos .redirecionar{
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    color: #2076FF;
+    margin-top: 30px;
+}
+
+/* Imagem */
+.informacoes .imagem{
+    width: 500px;
+}
